@@ -1,0 +1,5 @@
+require(knitr)
+require(markdown)
+setwd("~/my-rep-res/ass/RepData_PA1")
+knit("PA1_template.Rmd", encoding="ISO8859-1")
+markdownToHTML("PA1_template.md", "PA1_template.html")
